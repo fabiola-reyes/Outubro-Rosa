@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+}
+
+header {
+  height: 15vh;
+  background-color: #FF69B4;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header .BoxLogo {
+  width: 25vw;
+  display: flex;
+  align-items: center;
+  color: white;
+}
+header .BoxLogo h1 {
+  font-size: 1.5vw;
+  font-weight: 400;
+}
+header nav {
+  width: 40vw;
+}
+header nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav ul a {
+  font-size: 1.5vw;
+  color: white;
+}
+
+main {
+  display: block;
+  unicode-bidi: isolate;
+}
+main .caja1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 1rem;
+  background-color: #FFD9EC;
+  height: 50vh;
+}
+main .caja1 p {
+  display: block;
+  color: black;
+  font-size: 20px;
+  font-weight: 67;
+  width: 40%;
+}
+main .caja1 img {
+  height: 40vh;
+  unicode-bidi: isolate;
+}
+main .caja2 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 1rem;
+  background-color: #FF69B4;
+  height: 30vh;
+}
+main .caja2 p {
+  display: block;
+  color: white;
+  font-size: 25px;
+  font-weight: 20;
+  width: 60%;
+}
+main .caja2 img {
+  height: 27vh;
+  unicode-bidi: isolate;
+}
+main .caja3 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  top: 1rem;
+  background-color: #FFD9EC;
+  height: 70vh;
+}
+main .caja3 img {
+  height: 45vh;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #FF69B4;
+}
+footer .caja4 {
+  display: flex;
+  justify-content: center;
+  align-items: last baseline;
+  width: 15vw;
+  height: 15vh;
+}
+footer .caja5 {
+  color: #E4EEF1;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+footer img {
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}/*# sourceMappingURL=style.css.map */
